@@ -65,7 +65,9 @@ namespace PWST_v0._3_server {
             localWebSocketServer.Start();
 
 
-
+            Console.WriteLine("\n\n\nPress any key to Stop Server ...");
+            Console.ReadKey();
+            localWebSocketServer.Stop();
 
 
             //const string URL = "ws://jbgasdxaxa.duckdns.org:9900";
@@ -105,7 +107,7 @@ namespace PWST_v0._3_server {
 
         protected class EchoAll : WebSocketBehavior {
             protected override void OnMessage(MessageEventArgs e) {
-                Console.WriteLine("Server recieved data from echo-all client: " + e.Data);
+                Console.WriteLine("Server recieved data from echo-all client: " + e.Data);               
                 Sessions.Broadcast(e.Data);
             }
         }

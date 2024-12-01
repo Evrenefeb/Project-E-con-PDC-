@@ -18,14 +18,22 @@ namespace PWST_v0._3_client {
         }
 
         private static void StartClient() {
-            string url = "ws://localhost:9900/echo-all";
+            string url = "ws://localhost:9900/echo-all"; //Connecting to localhost echoall behavioured branch
 
             WebSocket webSocket = new WebSocket(url);
 
             webSocket.OnMessage += WebSocket_OnMessage;
 
             webSocket.Connect();
-            Console.WriteLine("Connected to Server");
+            Console.WriteLine("Connected to Server..."); //Sending single info to server
+            Console.WriteLine("Permentant Chat Mode: ENABLED (To exit type ex) \n\n");
+
+            while (true) { 
+                string message = Console.ReadLine();
+                if(message.Equals("ex")) break;
+
+                webSocket.Send("[" + DateTime.Now + "] 'Client' >>>" + message);
+            }
 
             
 
