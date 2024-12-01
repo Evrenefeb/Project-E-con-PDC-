@@ -7,7 +7,7 @@
     <ProjectGuid>{74BABE7B-1185-4FFE-8F2D-99F07FD54CAB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>PWST_v0._3_server</RootNamespace>
-    <AssemblyName>PWST_v0._3_server</AssemblyName>
+    <AssemblyName>PWST_v0.3_server</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
