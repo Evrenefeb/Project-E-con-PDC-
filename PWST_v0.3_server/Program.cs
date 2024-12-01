@@ -51,6 +51,7 @@ namespace PWST_v0._3_server {
             string port = "9900";
             string server = "ws://" + URL + ":" + port;
             Console.WriteLine("Server starting at " + server);
+            
 
             WebSocketServer localWebSocketServer = new WebSocketServer(server);
 
@@ -58,6 +59,8 @@ namespace PWST_v0._3_server {
             const string STR_ECHO = "/echo", STR_ECHOALL = "/echo-all";
             localWebSocketServer.AddWebSocketService<Echo>(STR_ECHO);
             localWebSocketServer.AddWebSocketService<EchoAll>(STR_ECHOALL);
+
+            Console.WriteLine("Available Behaviours: " + STR_ECHO + " " + STR_ECHOALL);
 
             localWebSocketServer.Start();
 
