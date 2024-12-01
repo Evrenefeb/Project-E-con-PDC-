@@ -18,7 +18,7 @@ namespace PWST_v0._3_client {
         }
 
         private static void StartClient() {
-            string url = "ws://localhost:9900/echo-all"; //Connecting to localhost echoall behavioured branch
+            string url = "ws://192.168.1.38:9900/echo-all"; //Connecting to localhost echoall behavioured branch
 
             WebSocket webSocket = new WebSocket(url);
 
@@ -32,7 +32,7 @@ namespace PWST_v0._3_client {
                 string message = Console.ReadLine();
                 if(message.Equals("ex")) break;
 
-                webSocket.Send("[" + DateTime.Now + "] 'Client' >>>" + message);
+                webSocket.Send("[" + DateTime.Now + "] 'Client' >>> " + message);
             }
 
             
