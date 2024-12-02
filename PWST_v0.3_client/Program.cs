@@ -1,4 +1,6 @@
-﻿using System;
+﻿using NAudio.Wave;
+using PWST_v0._3_client.Utilities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,10 +14,20 @@ namespace PWST_v0._3_client {
 
             Console.WriteLine("Client\n\n\n\n");
 
+            string filePath = null;
+            AudioHandler audioHandler = new AudioHandler(filePath);
+            audioHandler.PlayAudio();
+
+
+
+
             StartClient();
 
             Console.ReadKey();
         }
+
+       
+
 
         private static void StartClient() {
 
