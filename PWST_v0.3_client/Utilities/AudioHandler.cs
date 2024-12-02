@@ -9,7 +9,13 @@ namespace PWST_v0._3_client.Utilities {
             this.audioFilePath = audioFilePath;            
         }
 
+
+        
+
+
         public void RecordAudio() {
+
+            // WARNING: HALT
 
             // Build it using example https://www.youtube.com/watch?v=6y9sAtPtTac&list=PLrqwM2iFaguiHMxomYvX01EJk82fuD8g_&index=4
             // https://github.com/naudio/NAudio/blob/master/NAudio.Core/Wave/WaveOutputs/WaveFileWriter.cs

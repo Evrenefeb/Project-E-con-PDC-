@@ -18,3 +18,23 @@ C:\Users\LENOVO\Desktop\Evren Efe\SEN\C#\PWST_v0.3\pwst-v0.3\PWST_v0.3_client\ob
 C:\Users\LENOVO\Desktop\Evren Efe\SEN\C#\PWST_v0.3\pwst-v0.3\PWST_v0.3_client\obj\Debug\PWST_v0..DFAAAA72.Up2Date
 C:\Users\LENOVO\Desktop\Evren Efe\SEN\C#\PWST_v0.3\pwst-v0.3\PWST_v0.3_client\obj\Debug\PWST_v0.3_client.exe
 C:\Users\LENOVO\Desktop\Evren Efe\SEN\C#\PWST_v0.3\pwst-v0.3\PWST_v0.3_client\obj\Debug\PWST_v0.3_client.pdb
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\NAudio.Asio.dll
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\NAudio.Core.dll
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\NAudio.dll
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\NAudio.Midi.dll
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\NAudio.Wasapi.dll
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\NAudio.WinForms.dll
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\NAudio.WinMM.dll
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\System.Security.AccessControl.dll
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\Microsoft.Win32.Registry.xml
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\NAudio.xml
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\NAudio.Asio.xml
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\NAudio.Core.xml
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\NAudio.Midi.xml
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\NAudio.Wasapi.xml
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\NAudio.WinForms.xml
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\NAudio.WinMM.xml
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\System.Security.AccessControl.xml
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\System.Security.Principal.Windows.xml

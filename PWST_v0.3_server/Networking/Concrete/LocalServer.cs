@@ -1,7 +1,6 @@
 ﻿using PWST_v0._3_server.Abstract;
 using PWST_v0._3_server.Utilities;
 using System;
-using System.Threading;
 using WebSocketSharp;
 using WebSocketSharp.Server;
 
