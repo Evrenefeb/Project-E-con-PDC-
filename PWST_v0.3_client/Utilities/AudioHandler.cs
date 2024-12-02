@@ -15,15 +15,32 @@ namespace PWST_v0._3_client.Utilities {
             // https://github.com/naudio/NAudio/blob/master/NAudio.Core/Wave/WaveOutputs/WaveFileWriter.cs
 
             string fileToWrite = null;
+            fileToWrite += ".wav";
 
-            WaveFileWriter waveFileWriter = new WaveFileWriter(fileToWrite, new WaveFormat(44100,1));
-            WaveInEvent inEvent = new WaveInEvent();
-            inEvent.StartRecording();
 
+
+            WaveFormat waveFormat = new WaveFormat(44100, 1);
+
+
+            WaveFileWriter waveFileWriter = new WaveFileWriter(fileToWrite, waveFormat);
+            WaveInEvent waveIn = new WaveInEvent();
+
+            waveIn.WaveFormat = waveFormat;
+
+            waveIn.DataAvailable += (s, e) => {
+
+                waveFileWriter.Write(e.Buffer, 0, e.BytesRecorded);
+
+            };
+
+
+            waveIn.StartRecording();
+
+            Console.WriteLine("Press any key to stop recording.");
             Console.ReadKey();
-            inEvent.StopRecording();
+            waveIn.StopRecording();
 
-            inEvent.Dispose();
+            waveIn.Dispose();
 
 
 
