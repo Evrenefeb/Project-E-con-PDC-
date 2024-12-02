@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Net;
-using System.Net.WebSockets;
-using System.Threading;
-using WebSocketSharp;
-using WebSocketSharp.Server;
 
 namespace PWST_v0._3_server {
     internal class Program {
