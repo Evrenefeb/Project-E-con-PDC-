@@ -18,7 +18,33 @@ namespace PWST_v0._3_client {
         }
 
         private static void StartClient() {
-            string url = "ws://192.168.1.38:9900/echo-all"; //Connecting to localhost echoall behavioured branch
+
+            string url = null;
+
+            string addressToConnect;
+
+            Console.Write("Enter server IPv4 to connect : ");
+            addressToConnect = Console.ReadLine();
+
+
+
+            int portToConnect;
+
+            Console.Write("Enter server port to connect : ");
+            string answerPort = Console.ReadLine();
+            
+            if (int.TryParse(answerPort, out portToConnect)) {
+                url = "ws://"+ addressToConnect + ":" + portToConnect + "/echo-all";
+            }
+            else {
+                Console.WriteLine("Could not connected to any server.");
+                Console.ReadKey();
+            }
+            
+
+
+
+
 
             WebSocket webSocket = new WebSocket(url);
 
@@ -26,9 +52,10 @@ namespace PWST_v0._3_client {
 
             webSocket.Connect();
             Console.WriteLine("Connected to Server..."); //Sending single info to server
-            Console.WriteLine("Permentant Chat Mode: ENABLED (To exit type ex) \n\n");
+            Console.WriteLine("Permentant Chat Mode: ENABLED (To exit type \"ex\") \n\n");
 
-            while (true) { 
+            while (true) {
+                Console.Write("> ");
                 string message = Console.ReadLine();
                 if(message.Equals("ex")) break;
 
