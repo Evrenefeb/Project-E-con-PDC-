@@ -1,0 +1,20 @@
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\PWST_v0.3_client.exe.config
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\PWST_v0.3_client.exe
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\PWST_v0.3_client.pdb
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\websocket-sharp.dll
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\bin\Debug\websocket-sharp.xml
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\obj\Debug\PWST_v0.3_client.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\obj\Debug\PWST_v0.3_client.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\obj\Debug\PWST_v0..DFAAAA72.Up2Date
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\obj\Debug\PWST_v0.3_client.exe
+C:\Users\user\source\repos\PWST_v0.3\PWST_v0.3_client\obj\Debug\PWST_v0.3_client.pdb
+C:\Users\LENOVO\Desktop\Evren Efe\SEN\C#\PWST_v0.3\pwst-v0.3\PWST_v0.3_client\bin\Debug\PWST_v0.3_client.exe.config
+C:\Users\LENOVO\Desktop\Evren Efe\SEN\C#\PWST_v0.3\pwst-v0.3\PWST_v0.3_client\bin\Debug\PWST_v0.3_client.exe
+C:\Users\LENOVO\Desktop\Evren Efe\SEN\C#\PWST_v0.3\pwst-v0.3\PWST_v0.3_client\bin\Debug\PWST_v0.3_client.pdb
+C:\Users\LENOVO\Desktop\Evren Efe\SEN\C#\PWST_v0.3\pwst-v0.3\PWST_v0.3_client\bin\Debug\websocket-sharp.dll
+C:\Users\LENOVO\Desktop\Evren Efe\SEN\C#\PWST_v0.3\pwst-v0.3\PWST_v0.3_client\bin\Debug\websocket-sharp.xml
+C:\Users\LENOVO\Desktop\Evren Efe\SEN\C#\PWST_v0.3\pwst-v0.3\PWST_v0.3_client\obj\Debug\PWST_v0.3_client.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\Evren Efe\SEN\C#\PWST_v0.3\pwst-v0.3\PWST_v0.3_client\obj\Debug\PWST_v0.3_client.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Evren Efe\SEN\C#\PWST_v0.3\pwst-v0.3\PWST_v0.3_client\obj\Debug\PWST_v0..DFAAAA72.Up2Date
+C:\Users\LENOVO\Desktop\Evren Efe\SEN\C#\PWST_v0.3\pwst-v0.3\PWST_v0.3_client\obj\Debug\PWST_v0.3_client.exe
+C:\Users\LENOVO\Desktop\Evren Efe\SEN\C#\PWST_v0.3\pwst-v0.3\PWST_v0.3_client\obj\Debug\PWST_v0.3_client.pdb
