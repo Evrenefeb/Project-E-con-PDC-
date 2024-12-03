@@ -1,5 +1,6 @@
 ﻿using NAudio.Wave;
 using System;
+using System.IO;
 
 namespace PWST_v0._3_client.Utilities {
     public class AudioHandler {
@@ -14,6 +15,9 @@ namespace PWST_v0._3_client.Utilities {
 
 
         public void RecordAudio() {
+
+
+            BufferedWaveProvider
 
             // WARNING: HALT
 
