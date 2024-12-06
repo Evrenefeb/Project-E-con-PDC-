@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWST_v0.3_server", "PWST_v0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWST_v0.3_client", "PWST_v0.3_client\PWST_v0.3_client.csproj", "{7319CB43-291A-48AD-AB78-BE8902D9F293}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{890997BB-F7D4-4012-92F9-B842216A80A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "Client\ClientApp.csproj", "{890997BB-F7D4-4012-92F9-B842216A80A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

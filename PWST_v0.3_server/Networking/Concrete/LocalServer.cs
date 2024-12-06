@@ -1,4 +1,5 @@
 ﻿using PWST_v0._3_server.Abstract;
+using PWST_v0._3_server.Networking.Concrete.CustomWebSocketBehavior;
 using PWST_v0._3_server.Utilities;
 using System;
 using WebSocketSharp;
@@ -43,11 +44,12 @@ namespace PWST_v0._3_server {
 
 
             // TODO: Seperation Needed here
-            const string STR_ECHO = "/echo", STR_ECHOALL = "/echo-all";
+            const string STR_ECHO = "/echo", STR_ECHOALL = "/echo-all", STR_AUDIO = "/audio";
             LocalWebSocketServer.AddWebSocketService<Echo>(STR_ECHO);
             LocalWebSocketServer.AddWebSocketService<EchoAll>(STR_ECHOALL);
+            LocalWebSocketServer.AddWebSocketService<AudioBehavior>(STR_AUDIO);
 
-            Console.WriteLine("Available Behaviours: " + STR_ECHO + " " + STR_ECHOALL);
+            Console.WriteLine("Available Behaviours: " + STR_ECHO + " " + STR_ECHOALL + " " + STR_AUDIO);
 
             LocalWebSocketServer.Start();
 
